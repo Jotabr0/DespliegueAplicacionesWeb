@@ -4,7 +4,7 @@
 
 | Nombre | Descripción |
 | ------ | ----------- |
-| [Actividad 5](/Tema 0/Actividad 5) | Practica Servidor Web |
+| [Actividad 5](/Tema0/Actividad5) | Practica Servidor Web |
 
 ## Tema 1 - Servidores Web
 
