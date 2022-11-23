@@ -1,13 +1,13 @@
-# Simple Web Server (ejemplo 1)
+# Simple Web Server - Ejemplo 1
 
 python -m http.server 8000
 
 ![imagen1](Images/localhost1.png)
 
-# Http Server 
+# Http Server - Ejemplo 2
 
 ![imagen2](Images/localhost2.png)
 
-# Dummy Web Server
+# Dummy Web Server - Ejemplo 3
 
 ![imagen3](Images/localhost3.png)
