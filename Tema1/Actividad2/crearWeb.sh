@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta http-equiv=X-UA-Compatible content=IE=edge><meta name=viewport content=width=device-width, initial-scale=1.0><title>$1</title></head><body><h1>Nueva página</h1><header><p style=color:green><b>Bienvenida a tu nueva pagina</b></p></header><p>Añadir contenido</p></body></html>" > /var/www/html/$1.html
+echo "$1 se ha creado correctamente"
