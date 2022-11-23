@@ -10,4 +10,4 @@
 
 | Nombre | Descripción |
 | ------ | ----------- |
-| [Actividad 2](/Tema 1/Actividad 2) | Scripts |
+| [Actividad 2](/Tema1/Actividad2) | Scripts |
