@@ -5,8 +5,7 @@
 Para comenzar, debemos preparar nuestro sistema instalando Apache, bind, php, mysql. Como en anteriores entregas ya hemos descrito como hacerlo, pasaremos a los scripts:
 
 
-* [La creación de usuarios y del directorio correspondiente para el alojamiento web](UsuarioDirectorio.md)
-* [Host virtual en apache](HostVirtual.md)
+* [La creación de usuarios y del directorio correspondiente para el alojamiento web y Host virtual en apache](UsuarioDirectorio.md)
 * [Creación de usuario del sistema para acceso a ftp, ssh, smtp,…](UsuarioFtp.md)
 * [Se creará un subdominio en el servidor DNS con las resolución directa e inversa](SubdominioDNS.md)
 * [Se creará una base de datos además de un usuario con todos los permisos sobre dicha base de datos (ALL PRIVILEGES)](BaseDatos.md)
