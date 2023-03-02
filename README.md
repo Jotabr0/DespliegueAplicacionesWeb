@@ -12,3 +12,12 @@
 | ------ | ----------- |
 | [Actividad 2](/Tema1/Actividad2) | Scripts |
 |[Proyecto](Proyecto/)|Proyecto Servidor Web|
+
+## Tema 2 - DNS
+
+| Nombre | Descripción |
+| ------ | ----------- |
+| [Proyecto Alojamiento Web](/Proyecto2Trimestre) | Se pide las instalación, configuración y puesta en marcha de un servidor que ofrezca servicio de alojamiento web configurable |
+
+
+
