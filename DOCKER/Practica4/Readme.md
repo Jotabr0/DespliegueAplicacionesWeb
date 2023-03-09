@@ -48,7 +48,7 @@ La aplicación en funcionamiento:
 ![network](practica4ejemplo2temperaturas.jpg)
 
 
-##Ejemplo 3: Despliegue de Wordpress + mariadb
+## Ejemplo 3: Despliegue de Wordpress + mariadb
 
 Para la instalación de WordPress necesitamos dos contenedores: la base de datos (imagen mariadb) y el servidor web con la aplicación (imagen wordpress). Los dos contenedores tienen que estar en la misma red y deben tener acceso por nombres (resolución DNS) ya que de principio no sabemos que ip va a coger cada contenedor. Por lo tanto vamos a crear los contenedores en la misma red:
 
@@ -75,11 +75,6 @@ $ docker run -d --name servidor_wp \
                 -e WORDPRESS_DB_NAME=bd_wp \
                 -p 80:80 \
                 wordpress
-
-$ docker ps
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
-5b2c5a82a524        wordpress           "docker-entrypoint.s…"   9 minutes ago       Up 9 minutes        0.0.0.0:80->80/tcp   servidor_wp
-f70f22aed3d1        mariadb             "docker-entrypoint.s…"   9 minutes ago       Up 9 minutes        3306/tcp             servidor_mysql
 
 ```
 
