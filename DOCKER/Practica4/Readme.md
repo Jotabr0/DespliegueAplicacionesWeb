@@ -23,7 +23,29 @@ Probamos y vemos que funciona, conectando con la base de datos
 ![network](practica4ejemplo1guestbook.jpg)
 
 
+## Ejemplo 2: Despliegue de la aplicación Temperaturas
 
+Vamos a hacer un despliegue completo de una aplicación llamada Temperaturas. Esta aplicación nos permite consultar la temperatura mínima y máxima de todos los municipios de España. 
+
+Vamos a crear una red para conectar los dos contenedores:
+
+```bash
+$ docker network create red_temperaturas
+```
+
+Ejecutamos los contenedores:
+
+```bash
+$ docker run -d --name temperaturas-backend --network red_temperaturas iesgn/temperaturas_backend
+
+$ docker run -d -p 80:3000 --name temperaturas-frontend --network red_temperaturas iesgn/temperaturas_frontend
+```
+
+![network](practica4ejemplo2contenedores.jpg)
+
+La aplicación en funcionamiento: 
+
+![network](practica4ejemplo2temperaturas.jpg)
 
 
 
