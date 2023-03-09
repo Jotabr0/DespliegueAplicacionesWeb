@@ -7,5 +7,27 @@ Los dos contenedores tienen que estar en la misma red y deben tener acceso por n
 ```bash
 $ docker network create red_guestbook
 ```
-!(network)[practica4ejemplo1network.jpg]
+![network](practica4ejemplo1network.jpg)
+
+```bash
+$ docker run -d --name redis --network red_guestbook -v /opt/redis:/data redis redis-server --appendonly yes
+```
+```bash
+$ docker run -d -p 80:5000 --name guestbook --network red_guestbook iesgn/guestbook
+```
+
+![network](practica4ejemplo1contenedores.jpg)
+
+Probamos y vemos que funciona, conectando con la base de datos
+
+![network](practica4ejemplo1guestbook.jpg)
+
+
+
+
+
+
+
+
+
 
