@@ -9,7 +9,7 @@
 docker run hello-world
 ```
 
-![Hello-world](dockerinstalado.jpg)
+![Hello-world](helloworld.jpg)
 
 
 
