@@ -29,16 +29,18 @@ Muestra un listado de todas la imágenes
 
 
 Ejecuta un contenedor hello-world y dale nombre “myhello1”
-Ejecuta un contenedor hello-world y dale nombre “myhello2”
-Ejecuta un contenedor hello-world y dale nombre “myhello3”
 
 ```bash
 docker run -d --myhello1 hello-world
 ```
-```bash
 
+Ejecuta un contenedor hello-world y dale nombre “myhello2”
+
+```bash
 docker run -d --myhello2 hello-world
 ```
+
+Ejecuta un contenedor hello-world y dale nombre “myhello3”
 ```bash
 docker run -d --myhello3 hello-world
 ```
