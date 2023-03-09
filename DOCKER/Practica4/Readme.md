@@ -16,7 +16,7 @@ $ docker run -d --name redis --network red_guestbook -v /opt/redis:/data redis r
 $ docker run -d -p 80:5000 --name guestbook --network red_guestbook iesgn/guestbook
 ```
 
-![contenedores](practica4ejemplo1contenedores.jpg)
+![contenedores](practica4ejemplo1contenedores1.jpg)
 
 Probamos y vemos que funciona, conectando con la base de datos
 
